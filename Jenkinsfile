@@ -14,11 +14,11 @@ pipeline {
         skipDefaultCheckout(false)
     }
 
-/*
+
     triggers {
        snapshotDependencies()
     }
-*/
+
     environment {
         MAVEN_OPTS   = '-Xmx1g -Djansi.force=true'
         MVN          = 'mvn -B -ntp -e'
