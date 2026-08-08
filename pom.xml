@@ -14,6 +14,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>reposilite-repository</id>
+            <name>Reposilite Repository</name>
+            <url>http://reposilite:8080</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.learnifier.lab</groupId>
